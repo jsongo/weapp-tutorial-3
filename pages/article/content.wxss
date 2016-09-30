@@ -1,0 +1,22 @@
+.article {
+  padding: 10px;
+}
+.news-title {
+  color: #3d464d;
+  font-size: 20px;
+  line-height: 1.5em;
+}
+.info {
+  color: #ccc;
+  font-size: 12px;
+  text-align: right;
+}
+.img {
+  display: block;
+  margin: auto;
+}
+.content {
+  font-size: 16px;
+  line-height: 1.75em;
+  margin-top: 20px;
+}

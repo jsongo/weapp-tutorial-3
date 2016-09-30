@@ -1,0 +1,53 @@
+/**index.wxss**/
+.scroll-wrapper {
+  height: 100%;
+}
+.refresh {
+  text-align: center;
+  color: #ccc;
+  padding: 20px 0 10px;
+  margin-top: -5px;
+}
+.scroll-view-item {
+  padding: 1rem 10px;
+  display: flex;
+  border-bottom: 1px solid #e6e8eb;
+}
+.item-img {
+  height: 4rem;
+  flex: 1;
+  display: block;
+}
+.detail {
+  height: 4rem;
+  line-height: 1.25em;
+  flex: 2;
+  padding: 0 10px;
+  position: relative;
+}
+.item-name {
+  font-size: .75rem;
+  overflow: hidden;
+  height: 2.5rem;
+  display: block;
+}
+.tips {
+  font-size: .65rem;
+  position: absolute;
+  bottom: 0;
+  color: #828a92;
+  display: flex;
+}
+.item-info {
+  float: left;
+  flex: 3;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  height: 1rem;
+}
+.category {
+  float: right;
+  flex: 1;
+  overflow: hidden;
+  height: 1rem;
+}

@@ -1,0 +1,13 @@
+<!--logs.wxml-->
+<view class="article">
+  <view class="top">
+    <text class="news-title">{{title}}</text>
+    <view class="info">
+      <text class="date">{{time}}</text>
+    </view>
+  </view>
+  <view class="content">
+    <image class="img" src="{{img}}" alter="{{title}}"></image>
+    <text>{{content}}</text>
+  </view>
+</view>
